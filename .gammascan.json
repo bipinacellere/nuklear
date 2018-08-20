@@ -1,0 +1,23 @@
+{
+	"gammaAccess": {
+		"url": "http://192.168.2.11:3000",
+		"userName": "chandrashekhar.bhosale@acellere.com",
+		"password": "admin1234"
+	},
+	"repositories": [{
+		"repository": {
+			"uid": "4f52692615a53d1ff7f5c1d9bcc20ea7",
+			"projectName": "RJ_Nukclear_C",
+			"sources": {
+				"baseDir": "$WORKSPACE"
+			}
+		},
+		"dataDir": "/opt/gamma/gamma_data",
+		"modules": {
+			"codeissues": [
+					{
+					"name": "gamma_cxx"
+					}]
+		}
+	}]
+}
