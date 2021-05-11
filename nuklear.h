@@ -15748,6 +15748,10 @@ nk_panel_end(struct nk_context *ctx)
 
     NK_ASSERT(ctx);
     NK_ASSERT(ctx->current);
+  
+    NK_ASSERT(ctx->current);
+    NK_ASSERT(ctx->current->layout);
+  
     NK_ASSERT(ctx->current->layout);
     if (!ctx || !ctx->current || !ctx->current->layout)
         return;
